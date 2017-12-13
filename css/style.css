@@ -1,0 +1,343 @@
+@import "utils.css";
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: Arial,sans-serif;
+	/*font-size: 10px;
+	line-height: 1,4;*/
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+
+/*..........header................*/
+
+
+.header {
+	background-image: url(../img/bg.jpg);
+	height:888px;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	background-position: center;
+	position: relative;
+	
+	padding-top: 50px;
+	
+}
+
+
+.logo {
+	position: absolute;
+    top: 30px;
+	padding-bottom: 70px;
+	
+}
+
+/*...........................content..................*/
+
+.wrapper {
+      width: 960px;
+	  margin: 0 auto;
+	  margin-top:113px;
+	  
+}
+
+
+.navigation {
+	margin-bottom: 75px;
+}
+
+
+.navigation ul {
+	 margin:0;
+	 padding: 0;
+	 
+				
+}
+
+
+
+.navigation ul li {
+	  margin:0;
+	  padding: 0;
+	  text-decoration: none;
+	  display:inline;
+	  margin-right: 150px; 
+	  
+}
+
+
+.navigation ul li a {
+	
+	color: #FFF;
+	list-style-type: none;
+	font-weight: bold;
+	font-size: 20px;
+	
+}
+
+
+.navigation ul li a:hover {
+	text-decoration: underline;
+	
+}
+
+
+.navigation ul li:last-child {
+	margin-right: 0;
+}
+
+
+.navigation ul li a {
+	text-decoration: none;
+	
+}
+
+
+
+.con_1 {
+	width: 418px;
+	left: 320px;
+	top: 266px;
+}
+
+
+
+.con_1 h1 {
+	font-weight: lighter;
+	color: #FFF;
+	font-size: 52px;
+  line-height: 1.192;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.004);
+ 
+}
+
+	
+
+ .con_1 p {
+  font-size: 14px;
+  color: #FFF;
+  font-family: "Arial";
+  line-height: 1.786;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.004);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+}
+
+/*.clear {
+	clear: both;
+}
+*/
+
+/*.....................body.................*/
+
+	
+
+.content {
+	height:499px;
+	/*background-color: #D0FF00;*/
+	margin-top:113px;
+	padding-bottom: 85px;
+					
+}
+
+
+
+.col_left {
+	width:307px;
+	/*background-color: #ccc;*/
+	border-right: 1px solid #eaeaea;
+	padding-right: 40px;
+	padding-bottom: 135px;
+	float:left;
+		
+	
+}
+
+.col_left p {
+	color: #fe992a;
+	font-style: italic;
+  font-size: 20px;
+  font-style: italic;
+  line-height: 1.4;
+  
+}
+
+.col_right {
+	width:594px;
+	/*background-color:#FF00AE;*/
+	float:right;
+	
+
+}
+
+.col_right h2 {
+  color: #fe992a;
+  /*font-weight: regular;	*/
+  font-size: 24px;
+  line-height: 1;
+  margin-bottom: 39px;
+
+}
+.col_right p {
+  color: #737c85;
+  font-size: 14px;
+  line-height: 1.4;
+ 
+}
+
+.col_right a {
+	/*text-decoration: uderline;*/
+	color:#737c85;
+}
+
+.col_right a:hover {
+	text-decoration: underline;
+}
+ .col_right a:visited {
+        color: #696969; 
+}
+ 
+.col_right a:active {
+    color: #ffff00;	
+}    
+
+ 
+ 
+ /*.......footer.................*/
+
+.footer {
+	background-image: url(../img/bg_footer.jpg);
+	font-family: Arial;
+	height: 473px;
+  font-size: 14px;
+  /*font-weight: regular;*/
+  line-height: 25px;
+  color:#FFF;
+  background-repeat: repeat; 
+}
+
+.footer {
+	padding-top: 45px;
+	padding-bottom: 180px;
+}
+
+.footer a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.footer h4 {
+	margin:0;
+	margin-bottom:10px;
+	font-size: 18px;
+	font-weight: bold;
+	
+}
+
+
+.col_contacts{
+	float: left;
+	width: 230px;
+}
+
+.col_contacts ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	margin-bottom: 20px;
+}
+
+.col_contacts p {
+	line-height: 18px;
+	margin-bottom: 10px;
+}
+
+.col_contacts ul li {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 10px;
+}
+
+
+.col_menu {
+	float: left;
+	width: 110px;
+	margin-right: 30px;
+}
+
+.col_menu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	margin-bottom: 20px;
+}
+.col_menu ul li a{
+	text-decoration: none;
+	color:#FFF;
+	
+}
+
+.footer a:hover {
+	text-decoration: underline;
+	}
+
+
+
+
+
+	
+
+
+
+
+
+
+
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens - adaptive styles bofore 1200px */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops - adaptive styles bofore 992px */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets - adaptive styles bofore 768px */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones - adaptive styles bofore 480px */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina - adaptive styles bofore 320px */
+@media only screen and (max-width : 320px) {
+
+}
+
+/*.....Поздравляем! Ошибок не обнаружено....*/
